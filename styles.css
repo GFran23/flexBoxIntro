@@ -1,0 +1,42 @@
+body{
+    background-color: plum;
+}
+
+.container1{
+    background-color: lavenderblush;
+    width: 80%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: space-around;  /* Options include| flex-start | flex-end | flex-center | space-between | space-around | etc etc */
+    flex-direction: row-reverse;
+    flex-wrap: wrap; /*  flex wrao options: nowrap| wrap| wrap-reverse */ 
+    
+    
+}
+
+.container2{
+    background-color: burlywood;
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: stretch;
+    justify-content: space-around;
+
+}
+
+.item1{
+    background-color: darkcyan; 
+    border: 5px solid black;
+    width: 25%;
+    /* min-width: 200px; */
+    min-height: 60px;
+    margin: 4px;
+    
+
+}
+
+
+
